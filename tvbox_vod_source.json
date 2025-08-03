@@ -1,24 +1,24 @@
 {
   "sites": [
     {
-      "key": "csp_XPath_example",
-      "name": "示例影视",
+      "key": "xpath_bbs_ffh7y_com",
+      "name": "XPath-bbs.ffh7y.com",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://example.com/xpath.json"
+      "ext": "http://bbs.ffh7y.com/kb/#/list/xne/21.html/xpath.json"
     },
     {
-      "key": "csp_AppYsV2_example",
-      "name": "苹果CMS",
+      "key": "xpath_bbs_ffh7y_com",
+      "name": "XPath-bbs.ffh7y.com",
       "type": 3,
-      "api": "csp_AppYsV2",
+      "api": "csp_XPath",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://example.com/api.php/provide/vod/"
+      "ext": "http://bbs.ffh7y.com/kb/#/list/xne/20.html/xpath.json"
     }
   ],
   "lives": [],
@@ -26,10 +26,31 @@
     {
       "name": "解析1",
       "type": 0,
-      "url": "https://jx.example.com/?url="
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "解析2",
+      "type": 0,
+      "url": "https://jx.jsonplayer.com/player/?url="
+    },
+    {
+      "name": "解析3",
+      "type": 0,
+      "url": "https://jx.parwix.com:4433/player/?url="
     }
   ],
-  "flags": ["youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "tudou", "pptv", "mgtv", "wasu"],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu"
+  ],
   "ijk": [
     {
       "group": "软解码",
