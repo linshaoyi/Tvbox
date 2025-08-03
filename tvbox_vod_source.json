@@ -1,0 +1,45 @@
+{
+  "sites": [
+    {
+      "key": "csp_XPath_example",
+      "name": "示例影视",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://example.com/xpath.json"
+    },
+    {
+      "key": "csp_AppYsV2_example",
+      "name": "苹果CMS",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://example.com/api.php/provide/vod/"
+    }
+  ],
+  "lives": [],
+  "parses": [
+    {
+      "name": "解析1",
+      "type": 0,
+      "url": "https://jx.example.com/?url="
+    }
+  ],
+  "flags": ["youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "tudou", "pptv", "mgtv", "wasu"],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}
